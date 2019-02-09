@@ -1,0 +1,30 @@
+{
+  "name": "puhelinluettelo-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavezzo/fullstack-19.git"
+  },
+  "keywords": [
+    "puhelinluettelo"
+  ],
+  "author": "Paavo Nätti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavezzo/fullstack-19/issues"
+  },
+  "homepage": "https://github.com/pavezzo/fullstack-19#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}
